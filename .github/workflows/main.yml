@@ -34,7 +34,6 @@ jobs:
         run: |
            ls
            git config --global user.name "omxpro" && git config --global user.email "omsenjalia@gmail.com"
-           npm init docusaurus website classic
            git config --global user.name "omxpro" && git config --global user.email "omsenjalia@gmail.com" && git add . && git commit -m "Upload" && git push
            cd /home/runner/work/tests/tests/website/
            ls
