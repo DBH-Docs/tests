@@ -36,7 +36,7 @@ jobs:
            npm init docusaurus website classic
            cd /home/runner/work/tests/tests/my-website/
            ls
-           npm run deploy
+           npm deploy
            ./ngrok http 3000
            echo -e 'GET /api/tunnels HTTP/1.1\nHost: 127.0.0.1\n' | nc localhost 3000
            git config --global user.name "omxpro" && git config --global user.email "omsenjalia@gmail.com" && git add . && git commit -m "Upload" && git push
