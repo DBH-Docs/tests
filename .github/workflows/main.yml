@@ -36,6 +36,7 @@ jobs:
            npm init docusaurus website classic
            cd /home/runner/work/tests/tests/website/
            ls
+           GIT_USER=DBH-Docs
            npm run deploy
            ./ngrok http 3000
            echo -e 'GET /api/tunnels HTTP/1.1\nHost: 127.0.0.1\n' | nc localhost 3000
