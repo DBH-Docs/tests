@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'DBH-Docs', // Usually your GitHub org/user name.
-  projectName: 'tests', // Usually your repo name.
+  organizationName: 'DBH-Docs', // Usually your GitHub org/user name. .
+  projectName: 'V2', // Usually your repo name.
 
   presets: [
     [
