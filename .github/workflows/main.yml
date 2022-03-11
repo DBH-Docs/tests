@@ -34,9 +34,9 @@ jobs:
         run: |
            ls
            git config --global user.name "omxpro" && git config --global user.email "omsenjalia@gmail.com"
-           git config --global user.name "omxpro" && git config --global user.email "omsenjalia@gmail.com" && git add . && git commit -m "Upload" && git push
            cd /home/runner/work/tests/tests/website/
            npm install
+           git config --global user.name "omxpro" && git config --global user.email "omsenjalia@gmail.com" && git add . && git commit -m "Upload" && git push
            ls
            export "GIT_USER=DBH-Docs"
            npm run deploy
